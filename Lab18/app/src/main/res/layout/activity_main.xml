@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nasty.lab18.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="fill_parent"
+        android:layout_height="34dp"
+        android:layout_margin="5dip"
+        android:layout_marginStart="5dp"
+        android:gravity="center_horizontal"
+        android:text="Нарисуйте цифру от 1 до 5"
+        android:textSize="12pt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.gesture.GestureOverlayView
+        android:id="@+id/draw_gestures"
+        android:layout_width="376dp"
+        android:layout_height="289dp"
+        android:layout_marginStart="5dp"
+        android:layout_weight="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/results"
+        android:layout_width="fill_parent"
+        android:layout_height="178dp"
+        android:layout_margin="5dip"
+        android:layout_marginStart="5dp"
+        android:gravity="center_horizontal"
+        android:textSize="12pt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/draw_gestures" />
+
+</android.support.constraint.ConstraintLayout>
