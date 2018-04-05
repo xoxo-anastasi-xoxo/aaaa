@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lab_22</string>
+    <string name="message_hint">НАПИСАТЬ СОБЩЕНИЕ</string>
+    <string name="call_hint">ПОЗВОНИТЬ</string>
+
+    <string name="dialog_name_hint">Имя</string>
+    <string name="dialog_description_hint">Комментарий</string>
+    <string name="dialog_price_hint">Телефон</string>
+
+</resources>
